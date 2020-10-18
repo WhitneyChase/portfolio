@@ -1,5 +1,13 @@
-JavaScript Debugging Tips: 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
+<h1>Week 05 Notes</h1>
+<h2>JavaScript Debugging Tips:</h2>
+<p>
 •	You can use a console log to have text and to print out a certain variable
 •	You can also use debugger breakpoints
 •	You can use console logs and breakpoint together like this
@@ -29,3 +37,6 @@ o	assert( find('#results li').has_content?('cat'), 'Search results are shown' )
 o	assert( page.has_no_selector?('#results li.no-results'), 'No results is not shown' ) end
 •	Depending on the framework that you choose to work with will depend on how you call and implement your tests. It can be as simple as importing a test.js file, or a series of catches and throws.
 
+</p>
+</body>
+</html>
